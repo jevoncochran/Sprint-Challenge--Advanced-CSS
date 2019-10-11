@@ -194,6 +194,10 @@ p {
   margin-right: 0.5%;
   margin-bottom: 1%;
 }
+.top container nav a:hover {
+  color: darkorange;
+  font-size: 1.7rem;
+}
 @media (max-width: 500px) {
   .top container nav a {
     margin-left: 2%;
@@ -238,6 +242,8 @@ footer {
 @media (max-width: 500px) {
   .home .space-images img {
     width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 }
 @media (max-width: 500px) {
@@ -298,8 +304,8 @@ footer {
   font-size: 1.5rem;
 }
 .home .walk .walk-text .btn:hover {
-  background: dimgray;
-  color: yellow;
+  color: darkorange;
+  font-size: 1.7rem;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -309,10 +315,6 @@ footer {
     border-radius: 2px;
     background: black;
     font-size: 1.5rem;
-  }
-  .home .walk .walk-text .btn:hover {
-    background: dimgray;
-    color: yellow;
   }
 }
 .home .walk .walk-img {

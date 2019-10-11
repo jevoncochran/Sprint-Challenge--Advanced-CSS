@@ -32,7 +32,7 @@
       height: 100%;
 
       @media @mobile {
-        width: 95%;
+        .mobile-mix();
       } // closes media query
     } // closes img
 
@@ -79,9 +79,7 @@
       width: 50%;
 
       @media @mobile {
-        width: 95%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        .mobile-mix();
       }
 
       h3 {
@@ -94,6 +92,9 @@
 
       .btn {
         .btn-design(black, 1.5rem, 8px);
+        &:hover {
+          .hover-design();
+        }
 
         @media @mobile {
           width: 95%;
